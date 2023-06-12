@@ -1,0 +1,28 @@
+Lab 2. Configure, Verify, and Troubleshoot IPv6 Addresses
+
+Lab Objective:
+The objective of this lab exercise is for you to learn and understand
+how to create and troubleshoot IPv6 addresses on Cisco routers.
+
+Lab Purpose:
+Configuring IPv6 addressing is one of your most fundamental tasks
+as a Cisco engineer. In the exam, you may also be asked to
+troubleshoot IPv6 addressing that has been incorrectly configured,
+so you need to know which show commands to use.
+
+Task 1:
+Configure the hostnames on routers R1 and R3 as illustrated in the
+topology.
+Task 2:
+Configure R1 S0/0, which is a DCE, to provide a clock rate of 768
+Kbps to R3 (unless you are using GNS3). Configure the IP
+addresses on the Serial interfaces of R1 and R3 as illustrated in the
+topology. Configure the Loopback interfaces specified in the diagram
+on R1 and R3.
+Task 3:
+Use the correct show commands to check:
+1. The summary of all configured IPv6 addresses (note the need
+to specify IPv6 in the show commands);
+2. The status of the interface (up/down or administratively down);
+and
+3. The subnet mask applied to the interface.
